@@ -1,0 +1,35 @@
+@media screen and (max-width: 599px) {
+    .contactModal{
+        display: flex;
+        flex-direction: column;
+        top: -100%;
+        position: absolute;
+        transition: .3s ease-in-out;
+    }
+    .contactModal.active{
+        top: 10px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #contactModal{
+        display: block;
+        top: -100%;
+        position: absolute;
+        transition: .3s ease-in-out;
+    }
+    #contactModal.active{
+        top: 5rem;
+        position: absolute;
+        transition: .3s ease-in-out;
+    }
+    #introduction{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        top: 40%;
+        left: 42%;
+    }
+    #introduction h1, #introduction h3{
+        font-size: 30px;
+    }    
+}
