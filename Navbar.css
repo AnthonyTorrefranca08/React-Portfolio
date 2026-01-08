@@ -1,9 +1,10 @@
 @media screen and (max-width: 599px){
     nav{
         display: flex;
+        position: fixed;
         justify-content: space-evenly;
         align-items: center;
-        position: relative;
+        width: 100%;
         height: 70px;
         background-color: hsl(0, 0%, 15%);
         z-index: 999;
@@ -15,6 +16,9 @@
 @media screen and (min-width: 600px){
     nav{
         display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
         justify-content: space-around;
         align-items: center;
         background-color: hsl(0, 0%, 15%);

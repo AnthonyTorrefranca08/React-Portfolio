@@ -1,10 +1,14 @@
 import React from "react";
 import StandingModel from "./img/professionally standing.png";
 import "./NavContact.css";
+import closeBtn from "./img/closeBtn.png";
 
-const NavContact = ({ className }) => {
+const NavContact = ({ className, toggleContact }) => {
   return (
     <section id="contactModal" className={`contactModal ${className}`}>
+      <section id="closeBtn">
+        <img src={closeBtn} onClick={toggleContact} alt="Close Button" />
+      </section>
       <img src={StandingModel} id="modelStanding" alt="Model" />
       <section id="introduction">
         <h3>Hi, I am</h3>

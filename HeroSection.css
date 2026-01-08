@@ -2,19 +2,46 @@
     .heroCoverContainer{
         display: flex;
         position: relative;
+        top:70px;
     }
     .HeroCover{
+        position: relative;
         height: auto;
         max-width: 100%;
     }
+    #introduction{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        color: wheat;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100px, -50px);
+    }
+    #introduction h1, #introduction h3{
+        font-size: 30px;
+    }    
 }
 @media screen and (min-width: 600px) {
     .heroCoverContainer{
         display: flex;
         position: relative;
+        top: 80px;
     }
     .HeroCover{
         height: auto;
         max-width: 100%;
+    }
+    #introduction{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        color: wheat;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100px, -50px);
     }
 }

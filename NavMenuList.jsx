@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavMenuList.css";
 
-const NavMenuList = ({ className, onLinkClick }) => {
+const NavMenuList = ({ className, toggleContact }) => {
   return (
     <section id="navMenuList" className={className}>
       <ul id="navUl">
@@ -15,7 +15,7 @@ const NavMenuList = ({ className, onLinkClick }) => {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#contactMe" onClick={onLinkClick}>
+          <a href="#contactMe" onClick={toggleContact}>
             CONTACT ME
           </a>
         </li>

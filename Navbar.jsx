@@ -9,10 +9,12 @@ import NavContact from "./NavContact.jsx";
 const Navbar = () => {
   const [isToggle, setisToggle] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
+
   const contactClicked = (e) => {
     e.preventDefault(); //
     setIsClicked(!isClicked);
     setisToggle(false);
+    console.log(isClicked);
     document.body.style.overflow = "hidden";
   };
   useEffect(() => {
@@ -33,11 +35,14 @@ const Navbar = () => {
           className={isToggle ? "active" : ""}
         />
         <NavMenuList
-          onLinkClick={contactClicked}
+          toggleContact={contactClicked}
           className={isToggle ? "active" : ""}
         />
+        <NavContact
+          toggleContact={contactClicked}
+          className={isClicked ? "active" : ""}
+        />
       </nav>
-      <NavContact className={isClicked ? "active" : ""} />
     </>
   );
 };
