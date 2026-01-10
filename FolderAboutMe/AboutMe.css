@@ -1,0 +1,17 @@
+#aboutMeSection{
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+    text-align: justify;
+    height: 1000px;
+}
+#aboutMeSection h1{
+    font-size: 50px;
+    padding: 80px;
+}
+#aboutMeContainer{
+    display: flex;
+}
+#aboutMeSection p{
+    font-size: 20px;
+} 
