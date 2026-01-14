@@ -1,0 +1,57 @@
+@media screen and (max-width: 599px) {
+    #linkText{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+    #linkText > .span1{
+        height: 50px;
+        width: 5px;
+        background-color: wheat;
+    }
+    #linkText > .span2{
+        height: 50px;
+        width: 5px;
+        background-color: wheat;
+    }
+    #linkText p a{
+        color: var(--textColor), var(--stockColor);
+        text-decoration: none;
+        margin: 50px;
+    }
+    #linkText p a:hover{
+        color: rgb(131, 131, 131);
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #linkText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding: 50px;
+    }
+    #linkText > .span1{
+        height: 50px;
+        width: 5px;
+        background-color: wheat;
+    }
+    #linkText > .span2{
+        height: 50px;
+        width: 5px;
+        background-color: wheat;
+    }
+    #linkText p a{
+        color: wheat;
+        text-decoration: none;
+        margin: 50px;
+    }
+    #linkText p a:hover{
+        color: var(--hoverColor);
+        text-decoration: underline;
+    }
+}

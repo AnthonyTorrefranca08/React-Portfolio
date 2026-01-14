@@ -6,12 +6,16 @@
     position: absolute;
     top: 0;
   }
+  .mainEl{
+    margin: 70px 0;
+  }
 }
 @media screen and (min-width: 600px){
-  body{
-    background-color: hsla(0, 0%, 25%, 0.505);
+  .navBar{
+    position: absolute;
+    top: 0;
   }
-  #mainEl{
-    margin-top: 5.5rem;
-    }
+  .mainEl{
+    margin: 70px 0;
+  }
 }

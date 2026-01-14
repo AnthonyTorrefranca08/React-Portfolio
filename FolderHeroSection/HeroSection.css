@@ -8,6 +8,17 @@
         height: auto;
         max-width: 100%;
     }
+    #introductionHero{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        color: wheat;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100px, -50px);
+    }
 }
 @media screen and (min-width: 600px) {
     .heroCoverContainer{
@@ -17,5 +28,17 @@
     .HeroCover{
         height: auto;
         max-width: 100%;
+    }
+    #introductionHero{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        gap: 20px;
+        color: wheat;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100px, -50px);
     }
 }

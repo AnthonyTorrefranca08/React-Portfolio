@@ -20,6 +20,8 @@ const Navbar = () => {
   useEffect(() => {
     if (isClicked) {
       document.body.style.overflow = "hidden";
+      document.body.style.color = "black";
+      document.body.style.zIndex = "999";
     } else {
       document.body.style.overflow = "auto";
     }

@@ -1,17 +1,58 @@
-#aboutMeSection{
+@media screen and (max-width: 599px) {
+    #aboutMeSection{
+        display: block;
+        justify-content: center;
+        padding: 200px 0;
+    }
+    #paragraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        flex-direction: column;
+        padding: 110px 50px;
+    }
+    #paragraph p{
+        color: black;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 20;
+    } 
+}
+@media screen and (min-width: 600px) {    
+    #aboutMeSection{
+        display: block;
+        justify-content: center;
+        padding: 200px 50px;
+    }
+    #paragraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        flex-direction: column;
+        padding: 110px 100px;
+    }
+    #paragraph p{
+        color: black;
+        padding: 30px;
+        font-size: 30px;
+    }
+    #folderDescDetails {
     display: flex;
-    flex-direction: column;
-    padding: 0 60px;
-    text-align: justify;
-    height: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    }
+    #folderDescDetails .folderDescription {
+        flex: 1 1 400px;
+        max-width: 500px;
+    }
+    #folderDescDetails .folderDescription:nth-child(3) {
+        margin-bottom: 5rem;
+        flex: 1 1 100%;
+    }
+    .desktopOnly{
+        margin: 10em;
+    }
 }
-#aboutMeSection h1{
-    font-size: 50px;
-    padding: 80px;
-}
-#aboutMeContainer{
-    display: flex;
-}
-#aboutMeSection p{
-    font-size: 20px;
-} 

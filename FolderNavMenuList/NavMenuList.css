@@ -1,7 +1,4 @@
 @media screen and (max-width: 599px){
-    .navBar{
-        padding: 0 30px 0 0;
-    }
     #navMenuList{
         display: flex;
         align-items: center;

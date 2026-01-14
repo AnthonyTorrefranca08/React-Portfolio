@@ -1,0 +1,34 @@
+@media screen and (max-width: 599px) {
+    .folderDescription{
+        padding: 30px;
+    }
+    .folderDescription .folderDescTitle{
+        color: black;
+        padding: 40px 0;    
+    }
+    .folderDescription p{
+        color: black;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .folderDescription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        }
+    .folderDescription .folderDescTitle{
+        display: flex;
+        flex-direction: start;
+        padding: 40px 0;
+    }
+    .folderDescription p{
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+    }
+}

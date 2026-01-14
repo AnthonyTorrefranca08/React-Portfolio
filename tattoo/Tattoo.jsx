@@ -1,9 +1,9 @@
 import React from "react";
 import "./Tattoo.css";
 
-const Tattoo = () => {
+const Tattoo = ({ tattooColor= "white", className }) => {
   return (
-    <section id="tattoo">
+    <section id="tattoo" className={className} style={{"--t-color": tattooColor}}>
       <span></span>
       <span></span>
       <span></span>

@@ -1,5 +1,48 @@
-#box{
-    height: 30px;
-    width: 30px;
-    background-color: black;
+@media screen and (max-width: 599px) {
+    #box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }  
+    #box p{
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+    }
+    #box .Child1{
+        display: flex;
+        position: absolute;
+        margin: 0 auto;
+        height: 80px;
+        width: 250px;
+        z-index: -1;
+        border: 15px solid black;
+    }
+}
+@media screen and (min-width: 600px) {
+    .boxContainer{
+        padding: var(--padding);
+    }
+    #box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    #box p{
+        color: black;
+    }
+    #box .Child1{
+        display: flex;
+        position: absolute;
+        margin: 0 auto;
+        height: 100px;
+        width: 350px;
+        z-index: -1;
+        border: 15px solid black;
+    }
+    p{
+        font-size: 30px;
+    }
 }

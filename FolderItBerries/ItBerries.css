@@ -3,39 +3,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 75px;
-        height: 100vh;
-        background-image: url(https://i.ytimg.com/vi/-g3MoakyjO8/maxresdefault.jpg);
-    }
-    #seeMore{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 50px;
-    }
-    #seeMore > .span1{
-        height: 50px;
-        width: 5px;
-        background-color: wheat;
-    }
-    #seeMore > .span2{
-        height: 50px;
-        width: 5px;
-        background-color: wheat;
-    }
-    #seeMore p a{
-        color: white;
-        text-decoration: none;
-        margin: 50px;
-    }
-    #seeMore p a:hover{
-        text-decoration: underline;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgb(39, 39, 39);
     }
     #itBerriesBg > h1{
         margin: 50px;
     }
     #itBerriesBg > p{
+        padding: 0 75px;
         font-size: 25px;
     }
     #itBerriesBg p, #itBerriesBg h1{
@@ -44,7 +20,7 @@
         justify-content: center;
         align-items: center;
         text-align: justify;
-    }   
+    }
 }
 @media screen and (min-width: 600px) {    
     #itBerriesBg{
@@ -52,18 +28,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 450px;
         padding: 75px;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url(https://i.ytimg.com/vi/-g3MoakyjO8/maxresdefault.jpg);
+        background-color: rgb(39, 39, 39);
     }
     #itBerriesBg > h1{
         margin: 50px;
     }
     #itBerriesBg > p{
+        padding: 0 75px;
         font-size: 25px;
     }
-    p, h1{
+    #itBerriesBg p, #itBerriesBg h1{
         color: wheat;
         display: flex; 
         align-items: center;
@@ -75,29 +53,5 @@
         justify-content: center;
         align-items: center;
         text-align: justify;
-    }   
-    #seeMore{
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        padding: 50px;
-    }
-    #seeMore > .span1{
-        height: 50px;
-        width: 5px;
-        background-color: wheat;
-    }
-    #seeMore > .span2{
-        height: 50px;
-        width: 5px;
-        background-color: wheat;
-    }
-    #seeMore p a{
-        color: white;
-        text-decoration: none;
-        margin: 50px;
-    }
-    #seeMore p a:hover{
-        text-decoration: underline;
     }
 }
