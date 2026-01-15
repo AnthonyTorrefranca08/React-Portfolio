@@ -5,19 +5,20 @@ import SeeMoreSec from '../tattoo/SeeMoreSec.jsx'
 import Tattoo from '../tattoo/Tattoo.jsx'
 import FolderDescription from '../FolderDescription/FolderDescription.jsx'
 import FolderSkills from '../FolderSkills/FolderSkills.jsx'
+import FolderSkillLearningSec from '../FolderSkillLearning/FolderSkillLearning.jsx'
 
 const AboutMe = () => {
     return (
     <section id='aboutMeSection'>
         
-        <Box textLink="ABOUT ME" />
+        <Box textLink="ABOUT ME" textColor='black' />
 
         <section id="paragraph">
             <p>My name is Tomasz Gajda, I'm a third year Applied Computer Science student at the AGH University of Science and Technology in Krakow. I have been learning Front-End technologies for a year and this time was just enough for me to make sure that this is my place in the industry.</p>
             <br />
             <p>Membership in the science club developed my design skills, which quickly turned into a new hobby. I am fluent in English (spoken and written) and intermediate Spanish. Apart from designing and programming websites, my passion is all kinds of motorsport - from rallies to the very king of motorsport - formula 1.</p>
         </section>
-        <SeeMoreSec textColor='black' linkText="EXPLORE" />
+        <SeeMoreSec textLink="EXPLORE"  textColor='black' />
         
         <Tattoo className="desktopOnly" tattooColor='black'/>
 
@@ -29,9 +30,11 @@ const AboutMe = () => {
 
         <Tattoo className="desktopOnly" tattooColor='black' />
 
-        <Box textLink="SKILLS" paddingValue="4rem 0"/>
+        <Box textLink="SKILLS" textColor="black" paddingValue="8rem 0"/>
 
-        <FolderSkills />
+        <FolderSkills heading="USING NOW:" />
+
+        <FolderSkillLearningSec heading="LEARNING NOW:" />
     </section>
 )}
 

@@ -6,12 +6,12 @@ import BOOTSTRAP from '../img/img4.png'
 import REACT from '../img/img5.png'
 import GIT from '../img/img6.png'
 import FIGMA from '../img/img7.png'
-import './FolderSkills.css'
+import './FolderSkillLearning.css'
 
 
-const FolderSkills = ({heading}) => {
+const FolderSkillLearningSec = ({heading}) => {
 return (
-    <section id='skillSection'> 
+    <section id='skillLearningSec'> 
         <section id="heading">
             <h1>{heading}</h1>
         </section>
@@ -31,4 +31,4 @@ return (
     )
 }
 
-export default FolderSkills
+export default FolderSkillLearningSec

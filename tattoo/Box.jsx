@@ -1,12 +1,12 @@
 import React from 'react'
 import './Box.css'
 
-const Box = ({textLink, paddingValue}) => {
+const Box = ({textLink, textColor = "white", paddingValue, boxColor = "black"}) => {
     return (
-    <section className="boxContainer" style={{"--padding": paddingValue}}>
+    <section className="boxContainer" style={{"--padding": paddingValue, "--textColor": textColor }}>
         <section id='box'>
-            <p>{textLink}</p>
-            <span className='Child1'></span>
+            <p style={{"--textColor":textColor}}>{textLink}</p>
+            <span className='Child1' style={{"--boxColor" : boxColor}}></span>
         </section>
     </section>
 )

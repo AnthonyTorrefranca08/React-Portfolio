@@ -1,16 +1,13 @@
 import React from 'react'
 import './SeeMoreSec.css'
 
-const SeeMoreSec = ({linkText, textColor='black', stockColor='black', hoverColor='black'}) => {
+const SeeMoreSec = ({textLink, textColor='black', stockColor='black', hoverColor='wheat'}) => {
   return (
-    <section>
-      <section id='linkText'>
+    <section id='seeMoreBtn'>
         <section className='span1'></section>
-          <p>
-            <a href="#" style={{"--textColor": textColor, "--stockColor": stockColor, "--hoverColor": hoverColor}}>{linkText}</a>
-          </p>
+          <p style={{"--textColor": textColor, "--stockColor": stockColor,
+          "--hoverColor": hoverColor}}>{textLink}</p>
         <section className='span2'></section>
-      </section>
     </section>
   )
 }

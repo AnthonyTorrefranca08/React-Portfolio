@@ -1,6 +1,8 @@
 @media screen and (max-width: 599px) {
     .folderDescription{
         padding: 30px;
+        margin: 20px;
+        background-color: #f9f9f9;
     }
     .folderDescription .folderDescTitle{
         color: black;

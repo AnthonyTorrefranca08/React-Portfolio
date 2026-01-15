@@ -12,6 +12,7 @@
         display: flex;
     }
     #tattoo span{
+        display: var(--d-display);
         border-radius: 20px;
         background-color: var(--t-color);
     }

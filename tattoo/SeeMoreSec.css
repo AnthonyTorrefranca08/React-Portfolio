@@ -1,4 +1,11 @@
 @media screen and (max-width: 599px) {
+    #seeMoreBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: none;
+    }
     #linkText{
         display: flex;
         flex-direction: row;
@@ -19,6 +26,7 @@
     #linkText p a{
         color: var(--textColor), var(--stockColor);
         text-decoration: none;
+        font-size: 20px;
         margin: 50px;
     }
     #linkText p a:hover{
@@ -28,6 +36,13 @@
 }
 
 @media screen and (min-width: 600px) {
+    #seeMoreBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: none;
+    }
     #linkText{
         display: flex;
         align-items: center;
@@ -35,22 +50,23 @@
         flex-direction: row;
         padding: 50px;
     }
-    #linkText > .span1{
+    #seeMoreBtn > .span1{
         height: 50px;
         width: 5px;
         background-color: wheat;
     }
-    #linkText > .span2{
+    #seeMoreBtn > .span2{
         height: 50px;
         width: 5px;
         background-color: wheat;
     }
-    #linkText p a{
-        color: wheat;
+    #linkText p{
+        color: var(--stockColor);
+        font-size: 30px;
         text-decoration: none;
-        margin: 50px;
+        padding: 50px;
     }
-    #linkText p a:hover{
+    #linkText p:hover{
         color: var(--hoverColor);
         text-decoration: underline;
     }

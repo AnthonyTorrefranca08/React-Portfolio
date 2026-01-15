@@ -1,5 +1,5 @@
 import React from "react";
-import HeroCover from "../img/boot taup.jpg";
+import HeroCover from "../img/bootTaup.jpg";
 import "./HeroSection.css";
 import Tattoo from "../tattoo/Tattoo";
 

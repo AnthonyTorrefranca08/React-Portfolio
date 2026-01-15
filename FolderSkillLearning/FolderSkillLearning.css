@@ -1,0 +1,24 @@
+@media screen and (max-width: 599px) {
+    #skillLearningSec{
+        display: none;
+    }
+}
+@media screen and (min-width: 600px) {
+    #skillLearningSec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    #skillLearningSec section:nth-child(2),
+    #skillLearningSec section:nth-child(3){
+        display: inline-flex;
+        gap: 3rem;
+        padding: 3rem;
+    }
+    #skillLearningSec img{
+        height: 5rem;
+    }    
+}

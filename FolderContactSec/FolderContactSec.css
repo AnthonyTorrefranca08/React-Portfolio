@@ -1,0 +1,56 @@
+@media screen and (max-width: 599px) {
+    #contactSection{
+        padding: 3rem 50px;
+    }
+    #contactSectionEls{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #inputFields{
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 0;
+        width: 15rem;
+        gap: 2rem;
+    }
+    #inputFields input{
+        border: none;
+        border-bottom: 3px solid black;
+        border-left: 3px solid black;
+        border-radius: 2px;
+    }
+    #inputFields :nth-child(4){
+        display: flex;
+        align-items: start;
+        height: 120px;
+    }
+}
+@media screen and (min-width: 599px) {
+    #contactSection{
+        padding: 3rem 250px;
+    }
+    #contactSectionEls{
+        padding: 5rem 0;
+    }
+    #contactSectionEls{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #inputFields{
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 0;
+        width: 35rem;
+        gap: 2rem;
+    }
+    #inputFields input{
+        border: none;
+        border-bottom: 3px solid black;
+        border-left: 3px solid black;
+        border-radius: 2px;
+    }
+}

@@ -3,12 +3,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
+        margin: 60px auto;
     }  
     #box p{
         font-size: 30px;
         font-weight: 600;
-        color: black;
+        color: var(--textColor, black) ;
     }
     #box .Child1{
         display: flex;
@@ -31,7 +31,7 @@
         position: relative;
     }
     #box p{
-        color: black;
+        color: var(--textColor, black) ;
     }
     #box .Child1{
         display: flex;
@@ -40,9 +40,9 @@
         height: 100px;
         width: 350px;
         z-index: -1;
-        border: 15px solid black;
+        border: 15px solid var(--boxColor);
     }
-    p{
+    #box p{
         font-size: 30px;
     }
 }
