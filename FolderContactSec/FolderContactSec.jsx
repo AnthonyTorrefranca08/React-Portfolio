@@ -2,6 +2,7 @@ import React from 'react'
 import './FolderContactSec.css'
 import Box from '../tattoo/Box'
 import Tattoo from '../tattoo/Tattoo'
+import SeeMoreSec from '../tattoo/SeeMoreSec'
 
 const FolderContactSec = () => {
     return (
@@ -20,7 +21,7 @@ const FolderContactSec = () => {
                     <input type="number" placeholder='PHONE NUMBER' />
                     <input type="text" placeholder='YOUR MESSAGE*' />
                 </form>
-                
+                <SeeMoreSec textLink="SUBMIT" spanColor='black' />
             </section>
         </section>
     )

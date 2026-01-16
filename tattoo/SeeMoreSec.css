@@ -6,32 +6,24 @@
         background: none;
         border: none;
     }
-    #linkText{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 50px;
+    #seeMoreBtn:active {
+        transform: scale(0.95);
+        filter: brightness(0.8);
     }
-    #linkText > .span1{
-        height: 50px;
-        width: 5px;
-        background-color: wheat;
-    }
-    #linkText > .span2{
-        height: 50px;
-        width: 5px;
-        background-color: wheat;
-    }
-    #linkText p a{
-        color: var(--textColor), var(--stockColor);
-        text-decoration: none;
-        font-size: 20px;
-        margin: 50px;
-    }
-    #linkText p a:hover{
-        color: rgb(131, 131, 131);
+    #seeMoreBtn:active p{
         text-decoration: underline;
+    }
+    #seeMoreBtn > .span1{
+        margin: 30px;
+        height: 50px;
+        width: 5px;
+        background-color: var(--spanColor);
+    }
+    #seeMoreBtn > .span2{
+        margin: 30px;
+        height: 50px;
+        width: 5px;
+        background-color: var(--spanColor);
     }
 }
 
@@ -43,31 +35,23 @@
         background: none;
         border: none;
     }
-    #linkText{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        padding: 50px;
+    #seeMoreBtn:active {
+        transform: scale(0.95);
+        filter: brightness(0.8);
+    }
+    #seeMoreBtn:active p{
+        text-decoration: underline;
     }
     #seeMoreBtn > .span1{
+        margin: 30px;
         height: 50px;
         width: 5px;
-        background-color: wheat;
+        background-color: var(--spanColor);
     }
     #seeMoreBtn > .span2{
+        margin: 30px;
         height: 50px;
         width: 5px;
-        background-color: wheat;
-    }
-    #linkText p{
-        color: var(--stockColor);
-        font-size: 30px;
-        text-decoration: none;
-        padding: 50px;
-    }
-    #linkText p:hover{
-        color: var(--hoverColor);
-        text-decoration: underline;
+        background-color: var(--spanColor);
     }
 }

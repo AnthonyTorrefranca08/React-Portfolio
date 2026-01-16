@@ -6,6 +6,7 @@ import ItBerries from "./components/FolderItBerries/ItBerries.jsx";
 import AboutMe from "./components/FolderAboutMe/AboutMe.jsx";
 import Portfolio from "./components/FolderPortfolio/Portfolio.jsx";
 import FolderContactSec from "./components/FolderContactSec/FolderContactSec.jsx";
+import Footer from "./components/uFolderFooter/Footer.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <AboutMe />
         <Portfolio />
         <FolderContactSec />
+        <Footer />
       </section>
     </main>
   );

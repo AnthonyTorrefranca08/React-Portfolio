@@ -7,6 +7,10 @@
         background-repeat: no-repeat;
         background-color: rgb(39, 39, 39);
     }
+    .dDisplay{
+        display: flex;
+        justify-content: flex-start;
+    }
     #itBerriesBg > h1{
         margin: 50px;
     }

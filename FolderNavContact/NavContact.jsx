@@ -26,15 +26,9 @@ const NavContact = ({ className, toggleContact }) => {
           </section>
 
           <section id="socials">
-            <span>
               <img src={socGit} alt="GitHub Logo" />
-            </span>
-            <span>
               <img src={socThr} alt="Threads" />
-            </span>
-            <span>
               <img src={socLin} alt="LinkedIn" />
-            </span>
           </section>         
       </section>
       <section id="modalCover"></section>

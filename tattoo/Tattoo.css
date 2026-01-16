@@ -1,15 +1,10 @@
 @media screen and (max-width: 599px) {
     #tattoo{
+        display: var(--d-display);
         flex-direction: column;
         justify-content: center;
         align-items: center;
         transform: scale(0.2);
-    }
-    .mobileOnly{
-        display: flex;
-    }
-    .desktopOnly{
-        display: flex;
     }
     #tattoo span{
         display: var(--d-display);

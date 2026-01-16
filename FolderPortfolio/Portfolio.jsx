@@ -31,7 +31,7 @@ const Portfolio = () => {
                 <img src={bootTaup} alt="PROJECTS" />
             </section>
             <section>
-                <p style={{color: "grey", fontSize: "20px"}}>And many more to come!</p>
+                <p style={{color: "black", fontSize: "20px"}}>And many more to come!</p>
             </section>
         </section>
     )

@@ -9,7 +9,7 @@
     }
     #portfolioCover img{
         position: absolute;
-        top: -500px;
+        width: 500%;
         transform: scale(.576);
         z-index: -1;
     }
@@ -51,7 +51,7 @@
         justify-content: center;
         align-items: center;
         height: 50px;
-        background-color: hsl(0, 0%, 10%);
+        background-color: gray;
     }
 }
 @media screen and (min-width: 600px) {
@@ -101,7 +101,7 @@
     #projects img{
         flex: 1 1;       
         height: auto;
-        width: 300px;
+        width: -webkit-fill-available;
         object-fit: cover;
     }
     #portfolioSection section:nth-child(4){

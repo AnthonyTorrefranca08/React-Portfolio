@@ -7,7 +7,7 @@
     top: 0;
   }
   .mainEl{
-    margin: 70px 0;
+    margin: 70px 0 0 0;
   }
 }
 @media screen and (min-width: 600px){
@@ -16,6 +16,6 @@
     top: 0;
   }
   .mainEl{
-    margin: 70px 0;
+    margin: 70px 0 0 0;
   }
 }

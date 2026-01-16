@@ -18,7 +18,7 @@ const AboutMe = () => {
             <br />
             <p>Membership in the science club developed my design skills, which quickly turned into a new hobby. I am fluent in English (spoken and written) and intermediate Spanish. Apart from designing and programming websites, my passion is all kinds of motorsport - from rallies to the very king of motorsport - formula 1.</p>
         </section>
-        <SeeMoreSec textLink="EXPLORE"  textColor='black' />
+        <SeeMoreSec textLink="EXPLORE"  textColor='pink' spanColor='black'/>
         
         <Tattoo className="desktopOnly" tattooColor='black'/>
 
