@@ -53,4 +53,12 @@
         border-left: 3px solid black;
         border-radius: 2px;
     }
+    #inputFields input:focus{
+        outline: none;
+    }
+    #inputFields :nth-child(4){
+        display: flex;
+        align-items: start;
+        height: 120px;
+    }
 }

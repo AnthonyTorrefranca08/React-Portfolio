@@ -7,13 +7,13 @@ import NavMenuList from "../FolderNavMenuList/NavMenuList.jsx";
 import NavContact from "../FolderNavContact/NavContact.jsx";
 
 const Navbar = () => {
-  const [isToggle, setisToggle] = useState(false);
+  const [isToggle, setIsToggle] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
   const contactClicked = (e) => {
     e.preventDefault(); //
     setIsClicked(!isClicked);
-    setisToggle(false);
+    setIsToggle(false);
     console.log(isClicked);
     document.body.style.overflow = "hidden";
   };
@@ -25,7 +25,8 @@ const Navbar = () => {
     } else {
       document.body.style.overflow = "auto";
     }
-  }, [isClicked]);
+  },[isClicked]);
+
   return (
     <>
       <nav>
@@ -33,7 +34,7 @@ const Navbar = () => {
           <img src={SGLogo} id="SGLogo" alt="Stark Graphics Logo" />
         </a>
         <BurgerIcon
-          onClick={() => setisToggle(!isToggle)}
+          onClick={() => setIsToggle(!isToggle)}
           className={isToggle ? "active" : ""}
         />
         <NavMenuList

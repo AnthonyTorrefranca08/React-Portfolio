@@ -21,7 +21,7 @@ const NavContact = ({ className, toggleContact }) => {
       <section id="modalContent">
           <section id="introductionNavContact">
             <h3>Hi, I am</h3>
-            <h1>Anthony Torrefranca</h1>
+            <h1>Anthony </h1>
             <p>Front-end Developer / UI Designer</p>
           </section>
 

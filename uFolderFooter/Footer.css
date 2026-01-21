@@ -27,7 +27,19 @@
     #socialsFooter img{
         height: 30px;
     }    
-    
+    #socialsFooter img{
+        height: 40px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    #socialsFooter img:nth-child(1):hover,
+    #socialsFooter img:nth-child(2):hover,
+    #socialsFooter img:nth-child(3):hover{
+        box-shadow: 10px 10px 250px;
+    }
+    #credits{
+        pointer-events: none;
+    }
 }
 @media screen and (min-width: 599px) {
     footer{
@@ -56,7 +68,16 @@
         display: flex;
     }
     #socialsFooter img{
-        height: 30px;
-    }    
-    
+        height: 40px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    #socialsFooter img:nth-child(1):hover,
+    #socialsFooter img:nth-child(2):hover,
+    #socialsFooter img:nth-child(3):hover{
+        box-shadow: 10px 10px 250px;
+    }
+    #credits{
+        pointer-events: none;
+    }
 }
